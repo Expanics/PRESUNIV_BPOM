@@ -1,0 +1,11 @@
+{
+  "regulation": "Peraturan BPOM Nomor 22 Tahun 2021 tentang Tata Cara Penerbitan Izin CPPOB",
+  "checklist": [
+    {"id": "sanitasi_fasilitas", "label": "Fasilitas memenuhi standar sanitasi", "pasal": "Pasal 5 ayat 1"},
+    {"id": "hygiene_personel", "label": "Higiene personel terjaga (pakaian, kesehatan)", "pasal": "Pasal 6"},
+    {"id": "storage_suhu", "label": "Penyimpanan pada suhu yang sesuai jenis produk", "pasal": "Pasal 8"},
+    {"id": "air_bersih", "label": "Sumber air memenuhi standar air minum/air bersih", "pasal": "Pasal 5 ayat 3"},
+    {"id": "pest_control", "label": "Pengendalian hama terdokumentasi", "pasal": "Pasal 7"},
+    {"id": "transport_higienis", "label": "Transportasi memenuhi syarat higiene", "pasal": "Pasal 9"}
+  ]
+}

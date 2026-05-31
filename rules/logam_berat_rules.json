@@ -1,0 +1,28 @@
+{
+  "regulation": "Peraturan BPOM Nomor 9 Tahun 2022 tentang Persyaratan Cemaran Logam Berat dalam Pangan Olahan",
+  "categories": {
+    "SUPLEMEN": {
+      "Timbal_Pb": {"max": 2.0, "unit": "mg/kg", "pasal": "Lampiran Tabel 1"},
+      "Kadmium_Cd": {"max": 1.0, "unit": "mg/kg", "pasal": "Lampiran Tabel 1"},
+      "Merkuri_Hg": {"max": 0.03, "unit": "mg/kg", "pasal": "Lampiran Tabel 1"},
+      "Arsen_As": {"max": 1.0, "unit": "mg/kg", "pasal": "Lampiran Tabel 1"}
+    },
+    "DAIRY": {
+      "Timbal_Pb": {"max": 0.02, "unit": "mg/kg", "pasal": "Lampiran Tabel 2"},
+      "Kadmium_Cd": {"max": 0.01, "unit": "mg/kg", "pasal": "Lampiran Tabel 2"},
+      "Merkuri_Hg": {"max": 0.01, "unit": "mg/kg", "pasal": "Lampiran Tabel 2"},
+      "Arsen_As": {"max": 0.1, "unit": "mg/kg", "pasal": "Lampiran Tabel 2"}
+    },
+    "DAGING_OLAHAN": {
+      "Timbal_Pb": {"max": 0.1, "unit": "mg/kg", "pasal": "Lampiran Tabel 3"},
+      "Kadmium_Cd": {"max": 0.05, "unit": "mg/kg", "pasal": "Lampiran Tabel 3"},
+      "Merkuri_Hg": {"max": 0.05, "unit": "mg/kg", "pasal": "Lampiran Tabel 3"},
+      "Timah_Sn": {"max": 250.0, "unit": "mg/kg", "pasal": "Lampiran Tabel 3"}
+    },
+    "BUAH_SAYUR": {
+      "Timbal_Pb": {"max": 0.1, "unit": "mg/kg", "pasal": "Lampiran Tabel 4"},
+      "Kadmium_Cd": {"max": 0.05, "unit": "mg/kg", "pasal": "Lampiran Tabel 4"},
+      "Arsen_As": {"max": 0.1, "unit": "mg/kg", "pasal": "Lampiran Tabel 4"}
+    }
+  }
+}

@@ -1,0 +1,16 @@
+Kamu adalah sistem klasifikasi produk pangan untuk BPOM Indonesia.
+Berdasarkan informasi produk di bawah, tentukan SATU kategori dari:
+- SUPLEMEN (suplemen kesehatan, vitamin, mineral, herbal dalam kapsul/tablet/sachet)
+- DAIRY (susu, yogurt, keju, produk susu olahan)
+- DAGING_OLAHAN (daging sapi/ayam/ikan olahan, sosis, nugget, kornet)
+- BUAH_SAYUR (jus buah, sayur olahan, produk nabati segar/olahan)
+
+Nama produk: {nama_produk}
+Komposisi: {komposisi}
+Klaim produk: {klaim}
+Proses produksi: {proses}
+
+Jawab HANYA dengan format JSON:
+{{"kategori": "SUPLEMEN|DAIRY|DAGING_OLAHAN|BUAH_SAYUR", "confidence": 0.0-1.0, "alasan": "..."}}
+
+JANGAN menambahkan teks lain di luar JSON.

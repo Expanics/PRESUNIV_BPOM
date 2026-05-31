@@ -1,0 +1,39 @@
+{
+  "regulation": "PerBPOM No. 13 Tahun 2019 tentang Batas Maksimal Cemaran Mikroba dalam Pangan Olahan",
+  "categories": {
+    "SUPLEMEN": {
+      "ALT": {"max": 1e5, "unit": "CFU/g", "pasal": "Lampiran I Tabel 1", "jenis_ukuran": "max"},
+      "Coliform": {"max": 10, "unit": "APM/g", "pasal": "Lampiran I Tabel 1", "jenis_ukuran": "max"},
+      "E_coli": {"required": "negatif", "unit": "/g", "pasal": "Lampiran I Tabel 1"},
+      "Salmonella": {"required": "negatif", "unit": "/25g", "pasal": "Lampiran I Tabel 1"},
+      "Staphylococcus_aureus": {"max": 1e2, "unit": "CFU/g", "pasal": "Lampiran I Tabel 1", "jenis_ukuran": "max"},
+      "Kapang": {"max": 1e3, "unit": "CFU/g", "pasal": "Lampiran I Tabel 1", "jenis_ukuran": "max"},
+      "Khamir": {"max": 1e3, "unit": "CFU/g", "pasal": "Lampiran I Tabel 1", "jenis_ukuran": "max"},
+      "Bacillus_cereus": {"max": 1e3, "unit": "CFU/g", "pasal": "Lampiran I Tabel 1", "jenis_ukuran": "max"}
+    },
+    "DAIRY": {
+      "ALT": {"max": 3e4, "unit": "CFU/ml", "pasal": "Lampiran I Tabel 2", "jenis_ukuran": "max"},
+      "Coliform": {"max": 10, "unit": "APM/ml", "pasal": "Lampiran I Tabel 2", "jenis_ukuran": "max"},
+      "E_coli": {"required": "negatif", "unit": "/ml", "pasal": "Lampiran I Tabel 2"},
+      "Salmonella": {"required": "negatif", "unit": "/25ml", "pasal": "Lampiran I Tabel 2"},
+      "Listeria": {"required": "negatif", "unit": "/25ml", "pasal": "Lampiran I Tabel 2"},
+      "Kapang": {"max": 5e1, "unit": "CFU/ml", "pasal": "Lampiran I Tabel 2", "jenis_ukuran": "max"},
+      "Khamir": {"max": 5e1, "unit": "CFU/ml", "pasal": "Lampiran I Tabel 2", "jenis_ukuran": "max"}
+    },
+    "DAGING_OLAHAN": {
+      "ALT": {"max": 1e5, "unit": "CFU/g", "pasal": "Lampiran I Tabel 3", "jenis_ukuran": "max"},
+      "E_coli": {"max": 10, "unit": "APM/g", "pasal": "Lampiran I Tabel 3", "jenis_ukuran": "max"},
+      "Salmonella": {"required": "negatif", "unit": "/25g", "pasal": "Lampiran I Tabel 3"},
+      "Staphylococcus_aureus": {"max": 1e2, "unit": "CFU/g", "pasal": "Lampiran I Tabel 3", "jenis_ukuran": "max"},
+      "Bacillus_cereus": {"max": 1e3, "unit": "CFU/g", "pasal": "Lampiran I Tabel 3", "jenis_ukuran": "max"},
+      "Clostridium_perfringens": {"max": 1e2, "unit": "CFU/g", "pasal": "Lampiran I Tabel 3", "jenis_ukuran": "max"}
+    },
+    "BUAH_SAYUR": {
+      "ALT": {"max": 1e6, "unit": "CFU/g", "pasal": "Lampiran I Tabel 4", "jenis_ukuran": "max"},
+      "E_coli": {"max": 10, "unit": "APM/g", "pasal": "Lampiran I Tabel 4", "jenis_ukuran": "max"},
+      "Salmonella": {"required": "negatif", "unit": "/25g", "pasal": "Lampiran I Tabel 4"},
+      "Kapang": {"max": 1e4, "unit": "CFU/g", "pasal": "Lampiran I Tabel 4", "jenis_ukuran": "max"},
+      "Khamir": {"max": 1e4, "unit": "CFU/g", "pasal": "Lampiran I Tabel 4", "jenis_ukuran": "max"}
+    }
+  }
+}
