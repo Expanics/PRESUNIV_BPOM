@@ -367,7 +367,9 @@ def build_ui():
     return app
 
 
+# Build the app at module level so it can be imported by the root app.py
+app = build_ui()
+
 if __name__ == "__main__":
     logger.info("🚀 Starting Gradio App...")
-    app = build_ui()
     app.launch(server_name="127.0.0.1", server_port=7860, share=False)
