@@ -355,7 +355,7 @@ async def health():
 # Serve React Frontend (For Hugging Face Spaces / Docker deployment)
 from fastapi.staticfiles import StaticFiles
 
-dist_dir = PROJECT_ROOT / "BPOM Compliance AI UI Redesign" / "dist"
+dist_dir = PROJECT_ROOT / "frontend" / "dist"
 if dist_dir.exists():
     logger.info(f"Serving static frontend from {dist_dir}")
     # Mount assets folder
