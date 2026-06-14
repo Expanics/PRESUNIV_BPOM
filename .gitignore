@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+BPOM Compliance AI UI Redesign/node_modules/
+laporan_compliance_bpom.pdf
