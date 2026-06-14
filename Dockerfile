@@ -1,9 +1,9 @@
 # Stage 1: Build React Frontend
 FROM node:18-alpine AS frontend-builder
 WORKDIR /app
-COPY ["BPOM Compliance AI UI Redesign/package.json", "BPOM Compliance AI UI Redesign/package-lock.json*", "./"]
+COPY "BPOM Compliance AI UI Redesign/package.json" "BPOM Compliance AI UI Redesign/package-lock.json" ./
 RUN npm install --legacy-peer-deps
-COPY ["BPOM Compliance AI UI Redesign/", "./"]
+COPY "BPOM Compliance AI UI Redesign/" ./
 RUN npm run build
 
 # Stage 2: Setup Python Backend
